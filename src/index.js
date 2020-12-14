@@ -12,13 +12,13 @@ import {createStore} from 'redux';
 //ACTON --> INCREMENT
 const increment= () => {
   return {
-    name: 'INCREMENT'
+    type: 'INCREMENT'
 
   }
 }
 const decrement= () => {
   return {
-    name: 'DECREMENT'
+    type: 'DECREMENT'
     
   }
 }
